@@ -1,0 +1,131 @@
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif; /* Updated font-family */
+  background-color: #F3F4F6; /* Background Color */
+  color: #374151; /* Text Color */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1E3A8A; /* Primary Color */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 2px solid #374151; /* Added border-bottom */
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header h1 {
+  margin: 0;
+  font-family: 'Roboto Mono', monospace; /* Updated font-family for header */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 70px; /* Adjust the height as needed */
+  margin-right: 10px; /* Space between the logo and the company name */
+}
+
+.company-name {
+  font-size: 1.5em; /* Adjust the font size as needed */
+  font-weight: bold;
+  font-family: 'Roboto Mono', monospace; /* Updated font-family for company name */
+}
+
+.container {
+  margin-top: 1%;
+  display: flex;
+  background-color: #F3F4F6; /* Background Color */
+}
+
+.ManageMenu {
+  display: flex;
+  flex-direction: column;
+  background-color: #1E3A8A; /* Primary Color */
+  width: 150px;
+  align-items: center;
+  width: 14%;
+  padding: 10px;
+  border-radius: 8px;
+  border-right: 2px solid #374151; /* Added border-right */
+}
+
+.ManageMenu div {
+  background-color: #60A5FA; /* Secondary Color */
+  color: white;
+  width: 100%;
+  height: 75px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 15px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif; /* Updated font-family */
+  font-weight: bold;
+}
+
+.ManageMenuItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 5px;
+  background-color: #60A5FA; /* Secondary Color */
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif; /* Updated font-family */
+  font-weight: bold;
+}
+
+.ManageMenuItem i {
+  margin-right: 10px;
+}
+
+.ManageMenuItem:hover {
+  background-color: #F97316; /* Accent Color */
+  transform: translateY(-2px);
+}
+
+#viewport {
+  flex-grow: 1;
+  margin-left: 10px;
+  border: 1px solid #374151; /* Text Color */
+  padding: 10px;
+  background-color: white;
+  color: #374151; /* Text Color */
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Mono', monospace; /* Updated font-family for headers */
+}
+
+footer {
+  background-color: #1E3A8A; /* Primary Color */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

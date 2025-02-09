@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>C-Scan</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="managment.html">Management</a>
+                <a href="support.html">Support</a>
+                <a href="login.html">Login</a>
+            </nav>
+            <h1>C-Scan</h1>
+        </header>
+        <div class="container">
+            <div class="ManageMenu">
+                <div class="ManageMenuItem" data-content-id="registerDevice">
+                    <i class="fas fa-plus-circle"></i>
+                    <p>Register Device</p>
+                </div>
+                <div class="ManageMenuItem" data-content-id="registeredDevices">
+                    <i class="fas fa-list"></i>
+                    <p>Registered Devices</p>
+                </div>
+                <div class="ManageMenuItem" data-content-id="storageDatabase">
+                    <i class="fas fa-database"></i>
+                    <p>Storage Database</p>
+                </div>
+                <div class="ManageMenuItem" data-content-id="other">
+                    <i class="fas fa-ellipsis-h"></i>
+                    <p>Other</p>
+                </div>
+                <div class="ManageMenuItem" data-content-id="qrCodesAndTags">
+                    <i class="fas fa-qrcode"></i>
+                    <p>QR Codes and Tags</p>
+                </div>
+                <div class="ManageMenuItem" data-content-id="settings">
+                    <i class="fas fa-cog"></i>
+                    <p>Settings</p>
+                </div>
+            </div>
+            <div id="viewport">
+                <!-- Content will be displayed here -->
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2025 C-Scan. All rights reserved.</p>
+        </footer>
+        <script src="js/utils.js"></script>
+        <script src="js/components.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/auth.js"></script>
+        <script>
+            // Run the check on page load
+            document.addEventListener('DOMContentLoaded', checkLoginStatus);
+        </script>
+    </body>
+</html>
